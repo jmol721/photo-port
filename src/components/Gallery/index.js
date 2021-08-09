@@ -3,7 +3,6 @@ import PhotoList from "../Photolist";
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Gallery({ currentCategory }) {
-    console.log('hi', { currentCategory });
     const { name, description } = currentCategory;
     return (
         <section>
